@@ -48,7 +48,7 @@ print('seed: {}'.format(seed))
 model_name = sys.argv[5]
 print('model name : {}'.format(model_name))
 
-models_dir = '/scratch/jchen67/deeplearning/prediction/DAE_Predictor/cnn_onehot_models/'
+models_dir = 'models/'
 figs_dir = 'figs/'
 
 print('loading model')
@@ -57,12 +57,12 @@ autoencoder.summary()
 # In[62]:
 
 # load data
-genotype_file = '../data/genotype_full_1_2.txt'  # 'data/genotype_full_1_2.txt'
+genotype_file = 'genotype.csv'
 genotype = pd.read_csv(genotype_file, sep='\t', index_col=0)
 print('genotype_file shape:', genotype.shape)
 
 # phenotype
-phenotype_file = '../data/phenotype.csv'  # 'data/genotype_full.txt'
+phenotype_file = 'phenotype.csv'
 multi_pheno = pd.read_csv(phenotype_file, sep=',', index_col=0)
 print('phenotype_multi shape:', multi_pheno.shape)
 
