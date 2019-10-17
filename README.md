@@ -35,12 +35,5 @@ Install requirment dependents
 pip install tensorflow sklearn pandas jupyter matplotlib
 ```
 
-### Launch Jupyter
-Launch Jupyter notebook by 
-``` 
-jupyter notebook 
-```
-which will launch a browser. If you have any problem, please reference Jupyter notebook [offical document](https://jupyter-notebook.readthedocs.io/en/stable/)
-
 ## Citation  
 Junjie Chen and Xinghua Shi. A Sparse Convolutional Predictor with Denoising Autoencoders for Phenotype Prediction. Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics. ACM, 2019.
